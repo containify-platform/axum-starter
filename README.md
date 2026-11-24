@@ -1,5 +1,7 @@
 # Axum starter
 
+[![Deploy on Containify](https://containify.cloud/deploy-button.svg)](https://containify.cloud/templates/axum)
+
 A minimal Rust web server, ready to deploy on [Containify](https://containify.cloud):
 
 - [Axum](https://github.com/tokio-rs/axum) 0.8 on Tokio
@@ -49,6 +51,10 @@ folder and set `SQLX_OFFLINE=true` in the Dockerfile's build stage.
 
 ## Deploy on Containify
 
+[![Deploy on Containify](https://containify.cloud/deploy-button.svg)](https://containify.cloud/templates/axum)
+
+One click deploys it on [Containify](https://containify.cloud). The [template page](https://containify.cloud/templates/axum) shows what it creates, and passwords, connection strings and the HTTPS address are filled in for you.
+
 Deploy the [Axum starter template](https://containify.cloud/templates/axum): it builds this
 repository with its Dockerfile and adds a Postgres database with `DATABASE_URL` already set. To
 make it your own, fork this repository and point the app's source at your fork.
@@ -56,3 +62,7 @@ make it your own, fork this repository and point the app's source at your fork.
 ## License
 
 MIT
+
+---
+
+Made by [Containify](https://containify.cloud): deploy apps, databases and workers from a Git repo or an image, with per-second billing. [Docs](https://containify.cloud/docs) · [Templates](https://containify.cloud/templates)
